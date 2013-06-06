@@ -4,7 +4,7 @@
 #
 # Examples
 #
-#   mysql::db { 'd0ntBsn00pinMyPwd': }
+#   mysql::set_root_passwd { 'd0ntBsn00pinMyPwd': }
 define mysql::set_root_passwd {
   require mysql
 
